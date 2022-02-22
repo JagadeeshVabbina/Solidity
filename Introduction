@@ -1,0 +1,4 @@
+-> Solidity is an object oriented , High level programming language primarily used for developing smart contracts.
+smart contracts are the programs that govern the behaviour of accounts within Ethereum state
+Solidity is  curly bracket language , heavely influenced by C++,Python and Javascript and is designed to target the Ethereum Virtual Machine(EVM)
+it supports iheritence,used defined types,libraries and is is statistically typed.
