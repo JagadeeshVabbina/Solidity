@@ -1,0 +1,4 @@
+// Remix is an online IDE for Solidity which works on browser
+in order to deploy a contract we need to have an account/address , fortunately remix has testnet unlike mainnet we do not need real ether in order to deploy smart contracts..
+* Each deployment can be called as an transaction which costs some Ether and the deployed smart contract will have a seperate address on Ethereum Blockchain
+* all the addresses on the testnet will have some dummy ether which help to fund the deployment.

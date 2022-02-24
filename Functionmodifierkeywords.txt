@@ -1,0 +1,5 @@
+1.view,constant and pure 
+
+constant is an depricated keyword for the same functionality as view.
+
+the keyword pure is used when there is an need for computational necessity.
