@@ -1,0 +1,26 @@
+1.Fixed size type
+bool isReady;
+uint name; //only positive and numeric not floating points
+address recipient;
+bytes32 amount;
+
+2. Variable Type 
+string name;
+bytes hello;
+uint[] names;
+mapping(uint => string) college //key type and value type
+
+
+3. User defined type
+struct myStruct {
+uint b;
+string car;
+bool notDone;
+}
+
+enum colour {
+ RED,
+ BLUE,
+ ORANGE
+}
+ colour.RED,colour.BLUE 
