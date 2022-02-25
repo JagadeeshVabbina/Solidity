@@ -1,0 +1,7 @@
+1. Transaction 
+tx.origin //it is from where the original transaction initiated.
+2.message
+msg.value //amount of ether user 1 wei = 10 (-18) ETH
+msg.sender // from which account smart contract is initiated.
+3.Block
+block.timestamp //time in seconds since 1970 in seconds
