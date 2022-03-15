@@ -1,0 +1,8 @@
+* Solidity is an High level object oriented programming language designed to implement smart contracts.
+*Smart contracts are the programs that givern the behaviour of accounts within Ethereum state.
+* Solidity is a curly braced language and it is influenced by C++, Python and Javascript.and is designed to target Ethereum Virtual Machine(EVM)
+*Solidity is  statically typed, supports inheritence,libraries and user defined types.
+*With solidity we can create contracts for Voting, crowd funding,blind auction and Multi signature wallets.
+*Since smart contracts are written by humans it might have bugs, so it is important to do code review,audit,testing and Correctness proof .
+* We need to consider security concerns before deploying it to production.
+* When deploying a contract use the latest version because they only contain security fixes.
