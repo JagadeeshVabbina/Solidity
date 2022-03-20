@@ -1,0 +1,6 @@
+1.Decentralized architecture 
+2.Distributed Ledger
+3.Consensus Algorithm 
+4.Cryptographic Algorith 
+5.Incentices
+
