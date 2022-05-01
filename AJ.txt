@@ -1,0 +1,3 @@
+Solidity code is encapsulated in contracts
+it is a contract oriented language
+& initiate proposed by Gavin Wood the man who coined the word WEB3
