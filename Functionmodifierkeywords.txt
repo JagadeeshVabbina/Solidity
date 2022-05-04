@@ -1,5 +1,5 @@
 1.view,constant and pure 
 
-constant is an depricated keyword for the same functionality as view.
+constant is an depricated keyword for the same functionality as view.when view keyword is used , fuction can read state variables but cannt alter the state variables.
 
-the keyword pure is used when there is an need for computational necessity.
+the keyword pure is used when there is an need for computational necessity.When pure keyword is used , fucntion neither read nor alter the state variables.
