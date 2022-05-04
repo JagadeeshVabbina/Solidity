@@ -1,0 +1,8 @@
+HASH 
+
+SHA-256b Hash
+
+
+SHa-256 Hash is an cryptogradphic function which generates fixed random hexadecimal 256 bit output value for any given input.
+
+it is deterministic and we can not derive its origial value by deducting the hash value
