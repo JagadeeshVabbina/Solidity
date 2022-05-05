@@ -1,0 +1,7 @@
+Public and Private key pair is an digital validation process of ownership and authentication.
+
+For Every private key, there will be an associated corresponding public key .
+
+Whenever we initiate a transaction or communication.. the value will be signed with a private key and it will generate a signed signature message...and it will be decrypted only by using the corresponding public key...so in the end it can be verified that this particular transaction/message was originated by the particular indivisual/organization who has the private key.
+
+
