@@ -1,0 +1,25 @@
+pragma solidity >=0.5.0 <0.6.0;
+contract ZombieFactory {
+    uint dnaDigits =16;
+    uint dnaModulud = 10  ** dnaDigits;
+
+    struct Person {
+        string name ;
+        uint age;
+    }
+
+    Person[] public people ;
+
+    function createZombie(string memory _name,uint _age) public { 
+        //Person newPerson=Person("AJ",27);
+        //people.push(newPerson);
+        //array.push function appends the values to the existing array structure
+        /*
+        uint[] numbers;
+        numbers.push[5];
+        number.push[10];
+        numbers.push[15]; 
+        is equivalent to numbers[5,10,15] */
+        people.push(Person(_name,_age));
+    }
+}
