@@ -1,0 +1,14 @@
+State variables are the varibales that will be stored in the contract storage , which means they will still be stored even after the contract is executed.
+
+there are many state variable that we can define to address the use case of the contract that we are writting.
+
+//SPDX-License-Identifier: MIT
+pragma solidity ^0.8.13;
+
+// Write the state varibales here
+
+uint myRent = 3000; /*int is an unsigned integer which is an alias for uint256 means that it will store values upto 256bit.and uint means it will only store non-nagative vaules. we can delare variables with less bits like uint8,uint16,uint32 based on the requirement.
+
+contract roomRent {
+// the contract logic here
+}
