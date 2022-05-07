@@ -1,0 +1,10 @@
+in Solidity by default functions are created with public visibility, which means anyone can execute the contracts code.so the contract is vulnerable to get attacs.so it is good practice to make function private so that only functions within the contract can only access thus making it more secure.
+example:-
+
+uint[] numbers;
+
+function _addtoArray(uint _number) private { /*standard convention z that all the private function names will start with underscore(_).*/
+numbers.push(_number);
+}
+
+
