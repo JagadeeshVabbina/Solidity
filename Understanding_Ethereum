@@ -1,0 +1,13 @@
+*A general purpose blockchain....kinda like a smart phone
+which works for multiple purposes.
+a built in programming language
+two types of accounts
+1. Externally owned accounts
+2.Contract accounts
+* anyone can build the application with any rules by defining it as contract.
+Gas:-
+
+halting problem--charge fee per computation step
+storage takes gas fee as well
+
+
