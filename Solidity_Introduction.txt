@@ -1,0 +1,16 @@
+* Solidity is a High level programming language and is heavily influenced by C++,Python and Javascript.
+* it is curly braced language.
+* Solidity is designed to target Ethereum Virtual Machine(EVM).
+*Solidity is used to create Smart contract which govern the state of accounts within Etherum blockchain.
+*it is a statistically typed ,support inheritance and user defined variables.
+*it is proposed in 2014 by Gavin Wood of Polkadot and  the language was later developed by the Ethereum project's Solidity team, led by Christian Reitwiessner.
+
+The Life Cycle of a Smart Contract:-
+
+The developers will create smart contracts in High level programming languages like solidity or Vyper or serpent, then that code is compiled ,the compilation process will generate two seperate components.
+1.Byte Code
+2.ABI
+
+* Byte code is the output of the compilation process, which EVM understands in order.
+
+*ABI is Application Binary interface which allows outside accounts interact with the smart contract features.
