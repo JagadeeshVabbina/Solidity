@@ -1,0 +1,3 @@
+mempool is where all the valid transactions wait to be confirmed.it is like a waiting room for transactions that have not yet been included in the block.
+
+they will be verified for double spending,valid signatures and outputs shouldnt exceed inputs
