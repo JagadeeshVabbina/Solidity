@@ -1,0 +1,3 @@
+In solidity, float/double data types are not provided till yet. If you want to perform this calculation for ether, you should use the different units of ether.
+
+If we need floats for any operations, should use external libraries
