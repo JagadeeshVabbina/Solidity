@@ -1,0 +1,33 @@
+//SPDX-License-Identifier: GPL-3.0
+pragma solidity ^0.8.15;
+contract smartContracts {
+    //state variables here
+    bool public canVote = true; //default is false
+    uint private myage = 28; //uinsigned integer uint256 - nonNegative integers
+    int internal myfavNum = 3;
+    string myName = "AJ";
+    // Note there are no default floating points in solidity, if needed then have to use ext libs
+    
+    constructor()  {}
+    
+    //uint256 = 2**256 -1;
+    //uint8 = 2**8 -1;
+    //uint16 = 2**16-1
+
+    //type casting
+
+    uint toBig = 250;
+    uint8 justRight = uint8(toBig);
+
+     function getConcatination(uint _uint1, uint _uint2) public pure returns(uint _cat) {
+         _cat = _uint1 + _uint2;
+         return  _cat;
+     }
+
+        //once a variable is declared in returns , it can be used in later time without declaring it again
+        //if declared if it show a shadow error
+
+
+    
+}
+
