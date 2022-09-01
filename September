@@ -1,0 +1,10 @@
+Solidity is a High level object oriented programming language
+it is designed to target ethereum Virtual Machine(EVM)
+its syntax is similar to Javascript
+it is influenced by python,C and javascript
+
+it is used to write Smart contracts and DApps
+
+Smart contract in Sol --> ABI & bytecode --> EVM
+
+ABI is Application binary interface which will be used by the eternal applications for connecting to the Smart contract
