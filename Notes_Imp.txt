@@ -1,0 +1,39 @@
+* Identity & Reputation
+* fractional Ownership(ICO)
+* Charity
+
+Address 20 bytes long
+0.4.18 function name same as contract name becomes constructor :-
+
+
+variable - storage,memory and calldata
+state variables are stored in Ethereum storage(Smart contracts)
+two types of functions 1. creates a transaction(Setter)
+                                      2. No Transaction(Getter)
+view:- only read the state of the blockchain , cant change
+pure:- cant read , cant change the state of the blockchain
+
+two ways to return variabel :- 1. write your own function
+                                                 2. Let solidity do it.
+
+with IPFS --> can store data cheaply 
+
+** Location has to be memory for publicly visible functions
+=================================================================
+functions
+* change the state variable/create a transaction/read the state vars from ethereum blockchain
+=============================================================================================
+Decentralization:- The App/service will be deployed on the Network, even if one server crashed The service will be available
+                  ie No single server has ABSOLUTE CONTROL rather every server will have copy of current data and EXECUTION LOGIC.
+				  
+Distributed:- Each server will have many to many connections with each other rather than one to many or many to one  
+              connections
+
+Database:- Storing record of transactions
+
+Ledger:- APPEND-ONLY ; existing tranasctions cant be modified(Immutability) but data can be modified by new transactions.
+
+Asymmetric cryptography:- two keys for encryption and decryption 
+
+*** Nodes use port 30303 for peer to peer communication.
+			  
