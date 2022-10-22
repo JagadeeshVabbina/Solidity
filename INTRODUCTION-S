@@ -1,0 +1,10 @@
+INTRODUCTION of SOLIDITY:- in 2014 it was proposed by Gavin wood and later developed by ethereum Project's Solidity team leb by Christaian Reitwiessner.
+It is a High level object oriented programming language.
+it is influenced by C++, Javascript and Python.
+it is a curly brace language and the statement terminator is a semicolon ;
+it is designed to target the Ethereum Virtual Machine(EVM), which is a run time environment for executing smart contracts and Dapps.
+The solidity file extention is .sol
+it is statically typed (need to declare type of variables at compile time).
+Solidity supports inheritance,user defined types.
+by using solidity we can create smart contract for crowdfunding,multi-signature wallets,blind-auctions and Voting.
+The current version of solidity is 0.8.17.
