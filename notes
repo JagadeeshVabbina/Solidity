@@ -1,0 +1,99 @@
+Blockchain Essentials
+
+
+
+•	What is blockchain and why it is used?
+•	Cryptography
+•	Blockchain and Ethereum architecture 
+•	Ether and gas
+•	Nodes
+•	Mining
+•	Accounts, transactions, and blocks
+•	Smart contracts
+
+
+What is Blockchain:-
+
+Decentralization:- 
+It means that an application or service will continue to be available or usable even if a server or group of servers in a NETWORK crashes or is not available. the application or service is deployed on the network in a such way that no single sever will have absolute control over data and execution logic, rather each server will have copy of current data and execution logic.
+
+Fight Club
+
+Distributed :-
+It means that any server or node on a network will have many connections with other servers or nodes on the network.  Rather than having one -to -one ,one -to -many connections between servers, it will have many – to-many server connections.
+	
+
+
+
+
+Introducing Solidity:- 
+
+Statically typed Object-oriented Programming language. Solidity is case sensitive which means variable declaration and usage should be done with the same case. statement terminator in solidity is semicolon(;). Solidity code file extension is .sol
+The following are the four high level constructs of a solidity file
+Pragma
+Comments
+Import
+Contract/library/interface.
+
+1.	pragma:- it is a language construct or directive which specifies the target compiler version to be used for compiling the current solidity code.  Example is
+pragma solidity ^0.8.17;
+all are lower case, ^ is called caret plays a significant role in deciding the compiler version. Version number consists of two things Major Build and Minor Build. Generally, there will be no breaking changes between the minor versions but breaking changes will be there between major versions of compiler. ^0.8.17 means (minimum 0.8.17 to 0.9.0(exclusive) (  >=   0.8.17(inclusive) <0.9.0(exclusive) ). 
+
+2.	Comments:- //single line
+                    /* Multi line
+                       Commenting in solidity */
+
+                NatSpec :- /// @author Smart Contract Developer 
+                    /** @dev @title
+                            @param    parameter names are case sensitive */
+3.	Import:- import keyword helps to read other solidity file’s code onto current solidity file.
+                           It helps to write modular code with solidity by segregating into small logical files.
+                    Import <<SolidityFile>> ;
+                       . represents current directory
+                       .. represents home directory.
+4.	Contract/library/interface:- can be defined at global level. Multiple contracts/libraries/interfaces can be defined within a single solidity file.
+              //SPDX-License-Identifier:MIT
+pragma solidity ^0.8.17;
+//contract/library/interface
+contract firstContract {
+
+}
+
+contract secondContract {
+
+}
+
+library stringLibrary {
+
+}
+
+library mathLibrary {
+
+}
+
+interface Ibank {
+
+}
+
+interface Iaccount {
+
+    
+}
+
+
+
+•	State Variables:- variales  a storage location for values to be stored.
+Private,internal(default),public and constant (immutable);
+State variable hold current value. Until functions change with transactions.
+ 
+
+•	Structs:- custom defined data type contains multiple variables with different data types.
+•	Modifiers:- associated with function/s and executed before execution of target function.
+      
+
+
+
+
+
+
+
