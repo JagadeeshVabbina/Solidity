@@ -1,0 +1,17 @@
+Account based Model:- 
+Bitcoin:- UTXO Model
+* conditions are on each UTXo
+* determine how the UTXO can be spend.
+
+Ethereum Account-based Model:-
+* conditions are each account
+* determine how each account is governed.
+
+
+EOA:- address,balance,nonce(# of transactions) * controlled by private key
+contract Accounts:- address,balance,nonce(# of accounts created),contract code and contract storage. * controlled  by code
+Doxing yourself
+
+Transactions Struck:- if a trasaction from an account has not confirmed yet, the subsequent transactions(higher nonce) from that accout will not be confirmed.
+
+
