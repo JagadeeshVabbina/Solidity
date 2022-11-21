@@ -1,0 +1,26 @@
+1.Transaction capacity
+2.Transaction Legitimacy :- Cryptography
+3.Transaction Consensus.
+
+P2P
+permissionless
+Censorship resistant
+1)
+Transaction Types:-
+Value Transactions
+Smart contract Interaction
+Smart Contract Deployment
+
+2) Transaction Legitimacy
+Ensure Transaction authenticity and integrity
+Private Key --> One-way Function --> Public Key
+
+*private key is created(chosen) and it can be used to create public key
+* if information is encrypted with one key,it can only be decrypted with the other key.
+
+3)Transaction Consensus
+PoA:- a centralized party decides.
+PoW:- Computationla resources
+PoS:- Validation in proportion to collateral
+
+
