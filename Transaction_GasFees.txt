@@ -1,0 +1,28 @@
+Gas and Transaction Fees:-
+to deal with Halting/denial of service problem and to get priority on transaction execution.
+
++ --> 3 gas units
+* --> 5 gas units
+store 256 bits --> 20k gas units
+
+gasLimit:- the maximum number of Gas units of a transaction.
+gasprice:- the price in GWEI or uETH that the user pays per unit of gas.
+
+
+EIP-1559 , London fork ,05 Aug 2021
+
+mainly solves the gas fee volatility and along with other key issues .
+
+Before EIP-1559 :- gasUint * gasPrice --> miner's address
+
+After EIP-1559 :- Base fee(-/+ 12.5% block) and priority fee and Max fee
+                           * base fee is set by the Protocol
+
+base fee:- The minimum is which is required to initate the transaction. it will be burned.
+priority fee:- its a tip to the miner/validator to include in the block
+max fee:- maximum gas price user is willing to pay for one unit of gas. transaction remains penidng if base fee > Max fee
+
+Refund:- max(0, maxfee-(basefee+ maxpriorityFee) is refunded to the user after execution.
+
+
+if a transaction is struct becuase lesser base fee, can inlcude a new transaction with the same nonce if the newer one is executed successfully, the previous one will be rejected.
