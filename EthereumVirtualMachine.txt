@@ -1,0 +1,17 @@
+The Ethereum Virtual Machine
+* Runs on every full Node.
+* Processes transactions and perform state change deterministically.
+* is Turing complete
+* State changes as part of consensus.
+
+Pros and Cons:-
+- :- EVM is slow,inclusion vs performance,10-20 transactions per second
++ :-  Permissionless,Trustless/Verifiable,Distributed/VeryRobust and Irreversible
+
+
+Native On-chain data 
+off-chain data  --> through oracles
+physical off-chain reference
+
+
+infura
