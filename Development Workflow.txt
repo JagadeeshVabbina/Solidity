@@ -1,0 +1,33 @@
+Blockchain connection:-
+Ethereum Mainnet
+Public testnet
+private testnet/javascript VM
+Mainnet fork
+
+
+how are you connecting?
+
+Local node :- archival Node--> High hardware requirements
+Third party service(Infura)--> archival Node --> Costly
+
+Private Testnet with Ganache
+
+
+IDE:- Remix and Atom(syntax highlighting packages)
+
+Contract Development:-
+* Define your goal
+* Define your varibales(type and size)
+* define ypur functions(activity,parameters,visibility)
+
+contract compilation:-
+
+Code --> solc --> ByteCode & ABI --> EVM
+
+bytecode--> Deployed on EVM
+Application binary interface:- List of contract functions and their arguments(JSON).
+
+Testing:-
+Manual testing (Remix and Metamask)
+Automated testing(Hardhat & Truffle (Javascript test cases), Brownie(automated python test cases)
+
