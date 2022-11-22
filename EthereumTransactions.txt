@@ -1,0 +1,29 @@
+Ethereum Transactions:- 
+ a transaction is a message sent from an externally owned account(EOA)
+
+Transaction can modify states:-
+* Ether balances of accounts
+* Contract Account(CA)'s storage.
+
+* Transactions optionally contain :- data and ether
+
+EOA to EOA (Ether Transfer)
+EOA to CA(Eth transfer contract execution)
+EOZ to 0 (Contract Deployment)
+
+ ** CAs can only initiate internal transactions/internal calls. A (non-internal) transaction can never originate with a smart contract. i.e
+initially, CAs must be triggered by an EOA transaction.  
+
+ Transaction:- can change the state of the blockchain. shoube be intitiated by an EOA.
+call:- a call is executed locally . it is read only. does not lead to state changes.
+
+Internal transaction: Transaction that is a part of another trasaction. an internal trasaction must be executed along side the containing trasaction.
+internal call: a call that is part of a trasaction. it must be executed along side the containing trasaction.Note that unlike regular call internal calls are subjetced to network fees.
+
+
+Transaction contain the following:-
+Recepient Address:- hexadecimal address
+Nonce:- Transaction count from sender
+Signature :- consisting of variables V,R and S
+Gas Limit:- Maximum number of transaction execution steps
+Gas price:- Fee the sender is willing to pay per execution step.
