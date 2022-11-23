@@ -1,0 +1,31 @@
+Solidity Basics:-
+
+0.8.17;
+major,minor,patch
+
+Storing data on-chain:-
+0 to 2**256 - 1 slots(each has 32byte size)
+
+Private does not mean that variable is hidden.
+
+virtual and override
+
+special modifiers for variables:-
+constant and immutable :- disallow of chaning the value of variable during the lifetime of contract
+Difference:- immutable can be set during contract deployment.
+
+block.basefee
+block.chainid
+
+uint amount = 1 ether;
+assert(amount == 1e18);
+
+wei(1),gwei(10**9),ether(10**18)
+
+Time suffixes:- seconds,minutes,hours,days,weeks
+uint twoHours = 2 hours;
+assert(twoHours == 2 * 60 * 60);
+
+uint numofHrs = 2;
+uint twoHours = numofHrs hours; //not allowed
+uint tqoHours = numofHrs * 1 hours;
