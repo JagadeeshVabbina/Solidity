@@ -1,0 +1,30 @@
+Byzantine fault tolerance
+Ether:- utility currency
+Ethereum is a turing complete machine.
+blockchain:- open,public,global,decentralised,neutral and censorship-resistant.
+
+state machine and state transition by consesus.
+
+Ethereum Main network TCP port 30303, protocol DEVp2p.
+
+Merkle Patricia Tree :- a serialized hashed data structure.
+
+clients:- Geth and parity..etc..
+
+swarm and whisper (P2P storage and Messaging app)
+
+You'd better keep up, because no one will slow down for you.
+
+Ethereum is the system . Ether is the currency.
+
+gas-- DoS attacks.
+
+Emulated computer---> Ethereum Virtual Machine.
+
+Wallet holds only keys, Ether or other tokens are recorded on Ethereum blockchain.
+
+wallets are like keychains:- used to sign transactions.
+nondeterministic wallet JBOK --> Just a bunch of keys.
+deterministic wallet --. from seed.
+
+
